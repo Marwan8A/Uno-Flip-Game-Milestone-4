@@ -28,30 +28,6 @@ This project implements an UNO Flip card game for 2-4 players with a graphical u
 - Full scoring system based on UNO Flip values
 - Turn management including reversed direction, skips, and multi-step actions
 
-#### UNO Flip Integration (Milestone 3 additions)
-- Dual-sided cards (Light/Dark)
-- Flip mechanics applied to:
-  - Discard pile
-  - Draw pile
-  - Every player’s hand
-  - Active card color
-  - Top card orientation
-
-#### AI Player Capability (Milestone 3 additions)
-- Support for adding AI players during initialization
-- AI logic includes:
-  - Selection of the first available legal move
-     - AI scans its hand from the beginning to the end.
-     - For each card, it calls Rules.isLegal().
-     - The first card that returns true is chosen and played.
-  - Automatic color choice for wild cards
-    - AI picks the color it has the MOST of in its hand.
-    - If tied, it chooses the first color in the sorted order.
-  - Automatic turn execution
-    - If no legal card exists, the AI draws one card.
-    - If still illegal, the AI immediately passes using nextPlayer().
-- AI behaves seamlessly with GUI and model updates
-
 #### Game State Management (Milestone 4 additions)
 - **Undo/Redo System**
   - Full game state restoration using deep-copy stack-based architecture
@@ -162,7 +138,6 @@ java UNO.UnoView
 ### Replaying
 - At game-over dialog: choose "Yes" to replay
 - Clears all history and starts fresh with same player config
-- Or access via in-game Replay command
 
 ---
 
