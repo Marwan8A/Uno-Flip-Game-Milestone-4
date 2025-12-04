@@ -188,9 +188,10 @@ Updated to match UNO Flip scoring.
    - Save/Load game state flow (XML serialization)
 
 4. **Documentation**  
-   - Descriptions of all design changes since Milestone 2  
+   - Descriptions of all design changes since Milestone 3  
    - Updated README, user instructions, design decisions  
-   - Javadoc & inline comments  
+   - Javadoc & inline comments
+   - Game manual
 
 5. **Testing**  
    - Unit tests for undo/redo stack operations
@@ -209,14 +210,6 @@ Updated to match UNO Flip scoring.
 | Marwan Alakhras  | Added replay system, state restoration methods, scoreboard rebuild logic, error handling for file operations    |
 | Yousif Al-Satari | Updated UML diagrams with Milestone 4 changes, created sequence diagrams, documentation, README updates         |
 
-### Milestone 3
-
-| Team Member      | Primary Contributions                                                                                           |
-|------------------|-----------------------------------------------------------------------------------------------------------------|
-| Noor Karabala    | Integrated dual-sided card logic, UI updates for Flip cards, enhanced GUI responsiveness                        |
-| Abdullah Hasan   | Implemented AI turn execution, expanded controller logic, assisted with model refactoring                        |
-| Marwan Alakhras  | Added flip mechanics to deck/discard/hand, updated scoring logic, resolved model edge cases                     |
-| Yousif Al-Satari | Updated UML diagrams, created AI sequence diagrams, refined design documentation, produced README & deliverables |
 
 ---
 
